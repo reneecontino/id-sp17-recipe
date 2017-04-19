@@ -3,10 +3,6 @@
   max-width:100%
 }
 
-.nowrap {
-  white-space: nowrap;
-}
-
 
 h2,
 li {margin 0 0 1em 0;
@@ -303,4 +299,9 @@ section li {
   h1{
     font-size: 4em;
   }
+  
+  h1 .nowrap {
+  white-space: nowrap;
+  }
+
 }
