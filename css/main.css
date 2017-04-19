@@ -258,6 +258,7 @@ section li {
      body{background-color: #fff;}
       h1{
         font-family: monospace;
+        font-size: 2em;
         font-family: "courier new";
         color: #903;
       /*grayscale: 0123456789abcdef*/
@@ -297,3 +298,9 @@ section li {
         margin: 0 0 .5em 0;
       }
     </style>
+
+@media (min-width: 48em){
+  h1{
+    font-size: 4em;
+  }
+}
