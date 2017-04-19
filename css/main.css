@@ -88,6 +88,7 @@ header dl {
   vertical-align: top;
   margin-right: 1.5em;
   margin-left: .4em;
+  padding-bottom: -.5em;
   }
 header dl dt {
   margin: 1em 0 .5em;
