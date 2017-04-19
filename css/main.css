@@ -3,6 +3,11 @@
   max-width:100%
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
+
 h2,
 li {margin 0 0 1em 0;
 }
