@@ -88,8 +88,8 @@ header dl {
   vertical-align: top;
   margin-right: 1.5em;
   margin-left: .4em;
-  padding-bottom: -.5em;
   }
+
 header dl dt {
   margin: 1em 0 .5em;
   }
@@ -271,7 +271,7 @@ section li {
 
 @media (min-width: 44em){
  
-header dl {
+ header dl {
   padding-top: .6em;
   padding-bottom: 1em;
   padding-left: 1.2em;
