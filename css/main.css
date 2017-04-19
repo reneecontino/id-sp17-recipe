@@ -12,19 +12,6 @@ ul{line-height: 1.5em;}
 ol{line-height: 1.5em;}
 figcaption{color:#903;}
 
-HTML with Microdata
-<dl>
-  <dt><b>Prep Time:</b></dt>
-  <dd><time datetime="5m" itemprop="prepTime" content="PT5M">5 min</time></dd>
-  <dt><b>Cook Time:</b></dt>
-  <dd><time datetime="2m" itemprop="cookTime" content="PT2M">2 min</time></dd>
-</dl>
-Microdata, structured data, testing tool:
-https://search.google.com/structured-data/testing-tool
-HTML5 Outliner
-http://gsnedders.html5.org/outliner/
-*/
-
 /* --- display HTML5 elements as block --- */
 
 figcaption,
@@ -99,22 +86,9 @@ header dl {
   font: .96em "Arial", sans-serif;
   letter-spacing: .01em;
   vertical-align: top;
-  padding-top: .6em;
-  padding-bottom: .6em;
-  padding-left: 1.2em;
-  border-left: 1px solid #903;
   margin-right: 1.5em;
   margin-left: .4em;
   }
-
- .time-level dl:first-child {
-  border-left: 0;
-}
-
-header dl:first-child {
-  border-left: 0;
-  }
-
 header dl dt {
   margin: 1em 0 .5em;
   }
@@ -294,6 +268,24 @@ section li {
         margin: 0 0 .5em 0;
       }
 
+@media (min-width: 44em){
+ 
+header dl {
+  padding-top: .6em;
+  padding-bottom: .6em;
+  padding-left: 1.2em;
+  border-left: 1px solid #903;
+  }
+
+ .time-level dl:first-child {
+  border-left: 0;
+}
+
+header dl:first-child {
+  border-left: 0;
+  }
+  
+}
 
 @media (min-width: 48em){
   h1{
